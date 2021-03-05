@@ -2,16 +2,13 @@ import pygame
 from pygame.locals import *
 from pygame_functions import *
 
-
 # Initializes pygame
 pygame.init()
 
 # Initializes Pygame Audio Mixer
 pygame.mixer.init()
 
-# loading images
-
-
+# Setting up window
 screen = pygame.display.set_mode((800,800))
 pygame.display.set_caption("Qix")
 
